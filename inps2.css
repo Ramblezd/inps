@@ -1,0 +1,58 @@
+/* Reset base */
+body {
+  margin: 0;
+  font-family: Titillium Web;
+  background-color: white;
+}
+
+.menu-container {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu {
+  background-color: #f4f8ff;
+  border: 1px solid #d4e2ff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-header .icon {
+  font-size: 1.5em;
+}
+
+.menu-header h3 {
+  color: #002f6c;
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  font-weight: bold;
+  color: #0044cc;
+  text-decoration: underline;
+  font-size: 0.9em;
+}
