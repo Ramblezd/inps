@@ -1,16 +1,19 @@
+body{
+    font-family: Titillium Web;
+}
 .page{
     display: flex;
     margin: 30px;
 }
 h2{
-color: #00173d;
+color: #002460
 font-size: 30px;
 margin: 30px;
 }
 .card{
     width: 300px;
     height: 220px;
-    background-color: #00173d;
+    background-color: #00173d;;
     padding: 45px;
     border-radius: 2%;
 }
