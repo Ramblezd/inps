@@ -1,11 +1,25 @@
-:root {
-  --blu1: #00173d;
-  --blu2: #002460;
-  --blu3: #00368f;
-  --blu4: #2f6dd5;
-  --scritte: #18cee7;
-  --cardbg: #f2f6fc;
-  --bianco: #ffffff;
-  --secondary: #6c757d;
-  --font: Titillium Web;
+.page{
+    display: flex;
+    margin: 30px;
+}
+h2{
+color: #00173d;
+font-size: 30px;
+margin: 30px;
+}
+.card{
+    width: 300px;
+    height: 220px;
+    background-color: #00173d;
+    padding: 45px;
+    border-radius: 2%;
+}
+p{
+    color: white;
+    font-size: 19px;
+}
+a{
+    color: #18CEE7;
+    font-size: 30px;
+    cursor: pointer;
 }
