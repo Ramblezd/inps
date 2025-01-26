@@ -29,3 +29,25 @@ a{
     font-weight: 700;
     line-height: 1.875rem;
 }
+
+.card2 {
+    width: 270px;
+    height: 220px;
+    padding: 45px;
+    border: solid 1px lightgrey;
+}
+
+.subcard {
+    color: black;
+    font-size: 16px;
+}
+.card-data{
+    color: #5b6772;
+    font-family: Roboto Mono;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.313rem;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
