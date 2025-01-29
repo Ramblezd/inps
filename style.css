@@ -1,5 +1,6 @@
 body{
     font-family: "Titillium Web";
+    margin-left: 150px;
 }
 .page{
     display: flex;
@@ -12,7 +13,7 @@ margin: 30px;
 }
 
 .card{
-    width: 300px;
+    width: 270px;
     height: 220px;
     background-color: #00173d;;
     padding: 45px;
@@ -20,25 +21,26 @@ margin: 30px;
 }
 p{
     color: white;
-    font-size: 19px;
+    font-size: 17px;
 }
 a{
     color: #18CEE7;
     font-size: 1.5rem;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 1.875rem;
+    text-decoration: underline;
 }
 
 .card2 {
     width: 270px;
     height: 220px;
-    padding: 45px;
-    border: solid 1px lightgrey;
+    padding: 40px;
+    border: solid 1px rgb(244, 241, 241);
 }
 
 .subcard {
-    color: black;
+    color: #454D56;
     font-size: 16px;
 }
 .card-data{
@@ -50,4 +52,18 @@ a{
     margin-bottom: 0;
     text-transform: capitalize;
     padding-bottom: 15px;
+}
+
+.page2{
+    display: flex;
+    gap: 25px;
+}
+
+.page3{
+    display: flex;
+    gap: 25px;
+}
+
+.link2{
+    color: #2F6DD5;
 }
