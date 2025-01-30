@@ -15,11 +15,87 @@
     padding: 0 14px;
   }
 }
+/*body*/
 
 body {
-  margin: 0;
+  font-family: "Titillium Web";
+  margin-left: 150px;
+}
+
+body {
   font-family: "Titillium Web", sans-serif;
   background: #ffffff;
+}
+
+/*link*/
+.link1 {
+  color: #18cee7;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1.875rem;
+  text-decoration: underline;
+}
+
+.link2 {
+  color: #2f6dd5;
+}
+
+.link3 {
+  color: #2f6dd5;
+}
+
+.link3:hover {
+  color: #00368f;
+}
+
+.page {
+  display: flex;
+  margin: 30px;
+}
+h2 {
+  color: #002460;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.card {
+  width: 270px;
+  height: 220px;
+  background-color: #00173d;
+  padding: 45px;
+  border-radius: 2%;
+}
+p {
+  color: white;
+  font-size: 17px;
+}
+
+.card2 {
+  width: 270px;
+  height: 220px;
+  padding: 40px;
+  border: solid 1px rgb(244, 241, 241);
+}
+
+.subcard {
+  color: #454d56;
+  font-size: 16px;
+}
+.card-data {
+  color: #5b6772;
+  font-family: Roboto Mono;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.313rem;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+.page2 {
+  display: flex;
+  gap: 25px;
 }
 
 .menu-container {
@@ -75,13 +151,19 @@ body {
   margin-left: 15px;
 }
 
-.menu ul li a {
+.menu ul li .link3 {
   font-weight: bold;
-  color: #2f6dd5;
 
   text-decoration: underline;
   font-size: 0.9em;
 }
-a:hover {
-  color: #00368f;
+
+.page3 {
+  display: flex;
+  gap: 25px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
