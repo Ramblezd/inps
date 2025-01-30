@@ -41,3 +41,41 @@ body {
 }
 .inps-foto {
 }
+
+.tre {
+  display: flex;
+  align-items: center; /* Allinea verticalmente */
+  justify-content: space-between; /* Distribuisce gli elementi */
+  width: 100%;
+  max-width: 1200px; /* Regola la larghezza massima */
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.inps-logo img {
+  height: 60px; /* Regola l'altezza del logo */
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.search-bar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
