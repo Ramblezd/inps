@@ -9,66 +9,92 @@
   <body>
     <header>
       <!-- Parte Superiore -->
-      <nav class="navbar">
-        <div class="uno">
-          <ul class="nav-links">
-            <li><a href="#">L'istituto</a></li>
-            <li><a href="#">INPS Comunica</a></li>
-            <li><a href="#">Dati e Bilanci</a></li>
-            <li><a href="#">Avvisi,Bandi e Fatturazione</a></li>
-            <li><a href="#">Sedi e Contatti</a></li>
-            <li><a href="#">Assistenza</a></li>
-          </ul>
-        </div>
-        <div class="language">
-          <label for="Dropdown-list"></label>
-          <select id="Dropdown" name="Dropdown">
-            <optgroup label="">
-              <option value="ITA">ITA</option>
-              <option value="ENG">ENG</option>
-              <option value="DEU">DEU</option>
-            </optgroup>
-          </select>
-        </div>
-        <div class="Accedi">
-          <a href="#">Accedi</a>
-        </div>
-      </nav>
-      <!-- Parte centrale -->
-      <div class="due">
-        <div class="tre">
-          <div class="inps-logo">
-            <img
-              src="./assets/logo-inps.svg"
-              alt="logo-INPS"
-              width="100px"
-              height="100px"
-            />
-          </div>
-          <div class="search-container">
-            <input
-              type="text"
-              class=""
-              placeholder="Cerca servizi, informazioni, strumenti. Es.: “Pensione di vecchiaia"
-            />
-            <button class="search-button">Ricerca 🔍</button>
-          </div>
-        </div>
-        <div>
-          <ul class="search-bar-list">
-            <li><a href="">Pensione e Previdenza</a></li>
-            <li><a href="">Lavoro</a></li>
-            <li><a href="">Sostegni,Sussidi e Indennità</a></li>
-            <li><a href="">Imprese e Liberi Professionisti</a></li>
-          </ul>
+      <div class="superior">
+        <div class="superior2">
+          <nav class="navbar">
+            <div class="hamburger">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div class="logo-superiore">
+              <img
+                class="top-logo logo"
+                alt="logo INPS"
+                src="assets/logo-superiore.svg"
+              />
+            </div>
+            <div class="links">
+              <ul class="nav-links">
+                <li><a href="#">L'istituto</a></li>
+                <li><a href="#">INPS Comunica</a></li>
+                <li><a href="#">Dati e Bilanci</a></li>
+                <li><a href="#">Avvisi,Bandi e Fatturazione</a></li>
+                <li><a href="#">Sedi e Contatti</a></li>
+                <li><a href="#">Assistenza</a></li>
+              </ul>
+            </div>
+            <div class="lingua">
+              <label for="Dropdown-list"></label>
+              <select id="Dropdown" name="Dropdown">
+                <optgroup label="">
+                  <option value="ITA">ITA</option>
+                  <option value="ENG">ENG</option>
+                  <option value="DEU">DEU</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="accedi">
+              <a href="#">Accedi</a>
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                width="50px"
+                height="50px"
+                viewBox="-7 0 40 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="6" r="4" fill="#1C274C" />
+                <ellipse cx="12" cy="17" rx="7" ry="4" fill="#1C274C" />
+              </svg>
+            </div>
+          </nav>
         </div>
       </div>
+      <!-- Parte centrale -->
+
+      <div class="centrale">
+        <div class="inps-logo">
+          <img
+            class="logo"
+            src="./assets/logo-inps.svg"
+            alt="logo-INPS"
+            width="100px"
+            height="100px"
+          />
+        </div>
+        <div class="search-container">
+          <input
+            type="text"
+            class="box"
+            placeholder="Ricerca servizi, informazioni, strumenti. Es.: “Pensione di vecchiaia“"
+          />
+          <button class="search-button">Ricerca 🔍</button>
+        </div>
+      </div>
+      <div class="barra2">
+        <ul class="search-bar-list">
+          <li><a href="">Pensione e Previdenza</a></li>
+          <li><a href="">Lavoro</a></li>
+          <li><a href="">Sostegni,Sussidi e Indennità</a></li>
+          <li><a href="">Imprese e Liberi Professionisti</a></li>
+        </ul>
+      </div>
+
       <!-- Parte inferiore -->
       <div class="inps-foto">
-        <div class="foto-titolo">
-          <h1>Benvenuti in INPS</h1>
-        </div>
         <div class="foto">
+          <h1 class="titolo-foto">Benvenuti in INPS</h1>
           <img src="assets/INPS-home.svg" alt="hero-home-inps" />
         </div>
       </div>
