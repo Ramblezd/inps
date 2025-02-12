@@ -1,4 +1,8 @@
 /* Generale - Impostazioni comuni */
+body{
+  font-family: titillium Web;
+  font-weight: bold;
+}
 .page {
   display: flex;
   flex: 1;
@@ -102,8 +106,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-left: 55px;
     padding-right: 55px;
   }
@@ -192,6 +196,7 @@
 }
 
 .subcard1 {
+  font-weight: normal;
   font-size: 16px;
   color: #ffffff;
   padding: 0 34px 8px;
@@ -239,7 +244,16 @@
   justify-content: flex-start;
   height: 100%;
 }
+.subcard2{
+  font-weight: normal;
+}
+.card-data{
+  font-family: Roboto Mono;
+  color: #5B6772;
+  font-weight: normal;
+  font-size: 16px;
 
+}
 .card-img img {
   width: 100%;
   height: 100%;
@@ -273,10 +287,6 @@
 }
 .menu-container {
   margin-bottom: 20px;
-}
-body {
-  font-family: Arial, sans-serif;
-  background-color: white;
 }
 .header-container {
   display: flex;
@@ -455,8 +465,8 @@ body {
   position: absolute;
   top: 50px;
   left: -150px;
-  font-size: 34px;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 900;
   z-index: 2;
 }
 
