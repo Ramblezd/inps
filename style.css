@@ -1,5 +1,5 @@
 /* Generale - Impostazioni comuni */
-body{
+body {
   font-family: titillium Web;
   font-weight: bold;
 }
@@ -244,15 +244,14 @@ body{
   justify-content: flex-start;
   height: 100%;
 }
-.subcard2{
+.subcard2 {
   font-weight: normal;
 }
-.card-data{
+.card-data {
   font-family: Roboto Mono;
-  color: #5B6772;
+  color: #5b6772;
   font-weight: normal;
   font-size: 16px;
-
 }
 .card-img img {
   width: 100%;
@@ -577,11 +576,6 @@ body{
 }
 .scroll-up-container {
   background-color: #002460;
-}
-*,
-:after,
-:before {
-  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
