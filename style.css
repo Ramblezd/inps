@@ -191,7 +191,7 @@ body {
   font-weight: bold;
   color: #18cee7;
   margin: 0;
-  padding: 24px 34px;
+  padding: 24px 2pc 8px 34px;
   flex-grow: 1;
 }
 
@@ -216,7 +216,7 @@ body {
   flex-grow: 1;
   display: flex;
   align-items: center;
-  padding: 24px 34px 8px;
+  padding: 24px 32px 32px;
   margin: 0;
   justify-content: center;
 }
