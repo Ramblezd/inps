@@ -1,7 +1,7 @@
-/* Generale - Impostazioni comuni */
 body {
   font-family: titillium Web;
   font-weight: bold;
+  text-align: left;
 }
 .page {
   display: flex;
@@ -74,6 +74,16 @@ body {
     flex-direction: row;
     align-items: stretch;
   }
+  .primiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .secondiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .card-img,
   .card1 {
@@ -110,6 +120,19 @@ body {
     margin-right: 100px;
     padding-left: 55px;
     padding-right: 55px;
+  }
+  .feedback {
+    display: flex;
+  }
+  .primiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .secondiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .main {
@@ -485,6 +508,7 @@ body {
     left: 15px;
     z-index: 1000;
   }
+
   .navbar {
     display: flex;
     justify-content: left;
@@ -532,6 +556,16 @@ body {
     left: 50px;
     z-index: 1000;
   }
+  .primiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .secondiTre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 /* PARTE DI ALFREDO*/
 /* Applica Flexbox al contenitore .social */
@@ -570,12 +604,12 @@ body {
 }
 
 .scroll-up {
-  border-bottom: 1px solid #00368f;
-  margin-bottom: 1pc;
   padding: 6px 0;
 }
 .scroll-up-container {
   background-color: #002460;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
@@ -589,11 +623,12 @@ body {
   border-color: #18cee7;
   color: #18cee7;
   border-width: 2px;
-  color: #2f6dd5;
   font-weight: 700;
   padding: 9pt 40px;
   background-color: #002460;
-  border: 1px solid;
+  border: 2px solid;
+  align-content: center;
+  border-radius: 0.25rem;
 }
 .logo-container {
   display: flex;
@@ -617,7 +652,7 @@ body {
 .libreria-link {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   gap: 20px;
 }
@@ -684,7 +719,7 @@ body {
 header,
 footer {
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -715,6 +750,10 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .libreria-link-container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .social-bianco {
     display: flex;
     height: 30%;
@@ -728,17 +767,43 @@ footer {
     width: 100%;
     font-size: 18px;
   }
+  .feedback-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .primiTre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .secondiTre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 .feedback-button {
   display: flex;
   cursor: pointer;
   background-color: #fff;
-  border-color: #fff;
   color: #2f6dd5;
-  color: #2f6dd5;
-  height: 50%;
-  width: 100%;
+  height: 52px;
   align-items: center;
+  border-width: 2px;
+  font-weight: 700;
+  padding: 9pt 40px;
+  font: 16px;
+  margin: 5px;
+  border: 2px solid;
+  align-content: center;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 991px) {
+  .feedback-button {
+    width: 100%;
+  }
 }
 .feedback-container2 {
   display: flex;
@@ -746,6 +811,7 @@ footer {
   justify-content: space-between;
 }
 .feedback {
+  flex-direction: column;
   display: flex;
 }
 .feedback-1 {
@@ -757,7 +823,46 @@ footer {
 .feedback-1 > h2 {
   font-size: 16px;
 }
+
+.bianco4 {
+  font-size: medium;
+  margin: 0%;
+  max-width: 100%;
+  max-height: 100%;
+}
 .button-container {
   display: flex;
   align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.bianco-bottom {
+  margin: 0px;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.logo-stato {
+  padding: 15px;
+}
+.diritti-riservati {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.bianco-card {
+  padding: 15px;
+  padding-left: 40px;
+}
+.scroll-up {
+  display: flex;
+  align-content: center;
+}
+.pagina {
+  margin: 0%;
 }
