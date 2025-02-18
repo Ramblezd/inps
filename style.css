@@ -15,11 +15,10 @@ body {
   margin-bottom: 20px;
   align-items: stretch;
 }
-.notizie{
+.notizie {
   font-size: 32px;
   color: #002460;
   font-weight: bold;
-
 }
 .page-container2 {
   display: flex;
@@ -357,7 +356,7 @@ body {
 .nav-links a::after {
   content: "";
   position: absolute;
-  bottom: -15px;
+  bottom: -11px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -507,6 +506,11 @@ body {
 header {
   overflow: hidden;
 }
+.lente {
+  color: #ffffff;
+  height: 18px;
+  margin-left: 5px;
+}
 @media screen and (max-width: 1250px) {
   .header-container {
     display: flex;
@@ -527,7 +531,7 @@ header {
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1px;
+    gap: -1px;
     padding: 6px 10px;
   }
 
@@ -549,7 +553,7 @@ header {
   .nav-links a::after {
     content: "";
     position: absolute;
-    bottom: -15px;
+    bottom: -11px;
     left: 0;
     width: 100%;
     height: 4px;
@@ -619,6 +623,7 @@ header {
   }
 
   .search-container input {
+    margin-left: 20px;
     padding: 8px;
     width: 600px;
     height: 35px;
