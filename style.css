@@ -15,7 +15,12 @@ body {
   margin-bottom: 20px;
   align-items: stretch;
 }
+.notizie{
+  font-size: 32px;
+  color: #002460;
+  font-weight: bold;
 
+}
 .page-container2 {
   display: flex;
   flex-wrap: wrap;
@@ -266,6 +271,7 @@ body {
 }
 .subcard2 {
   font-weight: normal;
+  color: #454d56;
 }
 .card-data {
   font-family: Roboto Mono;
@@ -967,13 +973,16 @@ footer {
   align-items: center;
   border-width: 2px;
   font-weight: 700;
-  padding: 9pt 40px;
-  font: 16px;
-  margin: 5px;
+  padding: 12px 36px;
+  margin: 16px 0;
   border: 2px solid;
   align-content: center;
   border-radius: 0.25rem;
   justify-content: center;
+  font-family: titillium Web;
+  font-weight: bold;
+  font-size: 16px;
+  gap: 6px;
 }
 
 @media (max-width: 991px) {
@@ -1052,4 +1061,5 @@ footer {
 }
 .pagina {
   margin: 0%;
+  width: 80%;
 }
