@@ -328,6 +328,7 @@ body {
   color: #ffffff;
   height: 20px;
   border-bottom: 1px solid rgb(223, 220, 220);
+  white-space: nowrap;
 }
 
 .nav-links {
@@ -624,7 +625,7 @@ header {
   .search-container input {
     margin-left: 20px;
     padding: 8px;
-    width: 600px;
+    width: 630px;
     height: 35px;
     border: 1px solid #000000;
     border-radius: 3px;
